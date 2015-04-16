@@ -709,7 +709,14 @@ Making a copy of another master repo into your own github account so as to not d
 
 #### Why would you use a branch?
 
-*Your explanation here!*
+There are several uses for branching. One of the most common uses is for separating projects that once had a common code base. This is very useful to experiment with your code, without affecting the main trunk.
+
+In general, you would see two branch types:
+
+    Feature Branch: If a particular feature is disruptive enough that you don't want the entire development team to be affected in its early stages, you can create a branch on which to do this work.
+
+    Fixes Branch: While development continues on the main trunk, a fixes branch can be created to hold the fixes to the latest released version of the software.
+
 
 #### How do you create a new branch?
 
